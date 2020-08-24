@@ -27,12 +27,13 @@ body
 input, select
 {
     -webkit-appearance: none;
-    border: none;
-    outline: none;
+    -webkit-border: none;
+    -webkit-outline: none;
     background-color: #ECECEC;
     padding: 12px 10px;
     margin-top: 5px;
     -webkit-transition: border .12s ease;
+    -webkit-border-radius: none;
 }
 input:focus
 {
